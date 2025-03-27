@@ -1,0 +1,88 @@
+/* Resetta alcune impostazioni di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #9e99ff; /* Viola chiaro di sfondo */
+  color: black; /* Testo nero */
+}
+
+/* Top bar */
+.top-bar {
+  background-color: #AD27C4; /* Colore top bar */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.top-bar h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.top-bar p {
+  font-size: 18px;
+  color: white;
+}
+
+/* Container principale */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.elenco {
+  background-color: white; /* Rettangolo bianco dietro gli elenchi */
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.elenco h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Stile del bottone */
+button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: #AD27C4; /* Colore del bottone */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
+  padding: 20px;
+}
